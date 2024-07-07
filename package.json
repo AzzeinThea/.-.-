@@ -3,8 +3,13 @@
   "version": "1.0.0",
   "description": "Whatsapp bot by Azzeinthea",
   "main": "index.js",
+  "type": "commonjs",
+      "directories": {
+        "lib": "lib",
+        "src": "src",
+        "media": "AzzeinMedia"
   "scripts": {
-    "test": "npm start"
+    "test": "node index.js"
   },
   "author": "Azzeinthea",
   "license": "ISC",
